@@ -1,0 +1,11 @@
+no_of_slices = 7
+no_of_part = 3
+no_of_serv = 3
+sl_m = [2, 3, 2, 2, 3, 2, 3]
+sl_t_win = [28, 37, 29, 36, 21, 30, 22]
+service_slice_map = [[0, 2, 5], [1, 3], [4, 6]]
+slice_part_map = [0, 0, 1, 1, 1, 2, 2]
+part_slice_map = [[0, 1], [2, 3, 4], [5, 6]]
+user_dist_map = [ [1, 3], [0, 2, 5], [4, 6]]
+access_in_mult_part = [1, 1, 1] 
+total_PRB = 15000   
