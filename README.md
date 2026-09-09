@@ -1,8 +1,8 @@
 # VDERA
 
-VEDRA is a verified and efficient dynamic resource allocation frameowrk for real-time *radio access network* (RAN) scheduling. It deals with one of the key aspects of RAN resource scheduling: allocating *physical resource blocks* (PRBs)—the fundamental units of radio resources—among competing services. 
+VEDRA is a *verified* and *efficient* dynamic resource allocation framework for real-time *radio access network* (RAN) scheduling. It deals with one of the key aspects of RAN resource scheduling: allocating *physical resource blocks* (PRBs)—the fundamental units of radio resources—among competing services. 
 
-VEDRA considers as input any *3-layered network configuration* (Layer1: slices, Layer2: partitions, Layer 3: residual partition), and operates in *two* phases: 
+VEDRA considers any *3-layered network configuration* (Layer1: slices, Layer2: partitions, Layer 3: residual partition) as input, and operates in *two* phases: 
 i) a polynomial-time *runtime phase* allocating PRBs to slices within strict *deadlines* (outputs time cycles), and 
 ii) a *pre-processing formal verification phase* that guarantees the *dependability* of the proposed allocation before its runtime deployment (outputs runtime allocations).
 
