@@ -40,7 +40,7 @@ The script `execute_preprocessing_verification.py` automatically:
 
 The script `execute_runtime_allocations.py` the automatically:
 
-* generates synthetic service data corresponding to eMBB, URLLC, FWA, mMTC services based on channel quality indicator, MIMO and other inputs (by running the file `eMBB_Premium_userdata_generation`, `eMBB_Normal_userdata_generation`, `FWA_userdata_generation`, `URLLC_userdata_generation`, ``mMTC_userdata_generation`` under the `src` directory)
+* generates synthetic service data corresponding to eMBB (Premium and Normal services), URLLC, FWA, mMTC services based on channel quality indicator, MIMO and other inputs (by running the file `eMBB_Premium_userdata_generation.py`, `eMBB_Normal_userdata_generation.py`, `FWA_userdata_generation.py`, `URLLC_userdata_generation.py`, `mMTC_userdata_generation.py` under the `src` directory)
 
 * generates runtime PRB allocaions and de-allocations based on the synthesized time-cycles (by running the file `runtime_allocations.py` under the `src` directory)
 
