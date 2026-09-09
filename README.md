@@ -45,6 +45,8 @@ The script `execute_runtime_allocations.py` the automatically:
 * generates runtime PRB allocaions and de-allocations based on the synthesized time-cycles (by running the file `runtime_allocations.py` under the `src` directory)
 
 
+Sequentially running `execute_preprocessing_verification.py` and `execute_runtime_allocations.py` generates PRB allocations for all input networks.
+
 ## Contributors
 
 * Debarpita Banerjee
