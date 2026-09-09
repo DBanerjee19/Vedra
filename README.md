@@ -12,7 +12,7 @@ Reference paper: VEDRA: Verified and Efficient Dynamic Resource Allocation for R
 
 ## Required Software Packages
 
-* SMT solver Z3 (Microsoft): [Z3(Microsoft)](https://www.microsoft.com/en-us/research/project/z3-3/)  (used with Python API)
+* SMT solver: [Z3(Microsoft)](https://www.microsoft.com/en-us/research/project/z3-3/)  (used with Python API)
 
 * Packages `numpy`, `json` and `pandas` in Python
 
